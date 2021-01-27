@@ -1,0 +1,52 @@
+@media (min-width:1080px){
+    .container{width: 1200px; margin: auto}
+    .centerTitle p {
+        width: 50%;
+    }
+    .testimoniels .person p{
+        width: 50%;
+    }
+}
+
+@media (max-width:525px){
+    
+   
+    /*header*/
+
+    .slider p{font-size: 15px;}
+   
+    /*our service*/
+    .ourService div{
+        width: 50%;
+       padding: 0;
+    }    
+   /*newsLetter*/
+    .Newsletter form input[type="Email"],
+    .Newsletter form input[type="submit"]
+    {
+        width: 50%;
+        left: 20%;
+        margin: 0;
+    }
+    .Newsletter form input[type="Email"]{
+        top: 30%;
+    }
+    .Newsletter form input[type="submit"]{
+        top: 60%;
+    }
+
+    /*our team */
+    .ourTeam .card div {
+        width: 50%;
+    }
+    .ourTeam .card div .social i{
+        margin: auto;
+    }
+    .ourTeam .card div p{
+        line-height: 1.5;
+    }
+    /*last section say hello*/
+    .sayHello form input{
+         width: 45%;
+    }
+}
